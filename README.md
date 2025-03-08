@@ -26,15 +26,15 @@ where \( u \) and \( v \) range from \( 0 \) to \( 2\pi \). This means that each
 ---
 
 ### **Explanation of the Parametric Equations**
-1. **\( r = \cos(2u) \):**  
+1. **\( r = cos(2u) \):**  
    - This determines a radius \( r \) that oscillates between \(-1\) and \(1\), shaping the overall structure of the surface.
    
 2. **\( x = r • sin(0.5u) • cos(3u) \):**  
-   - The **\( \sin(0.5u) \)** factor controls the stretching of the surface.
-   - The **\( \cos(3u) \)** creates a periodic pattern along the \( x \)-axis, forming twists or ripples.
+   - The **\( sin(0.5u) \)** factor controls the stretching of the surface.
+   - The **\( cos(3u) \)** creates a periodic pattern along the \( x \)-axis, forming twists or ripples.
 
 3. **\( y = r • sin(0.5u) • sin(3v) \):**  
-   - Similar to \( x \), but it uses **\( \sin(3v) \)** instead of \( \cos(3u) \), adding a swirling or twisting motion in the \( y \)-direction.
+   - Similar to \( x \), but it uses **\( sin(3v) \)** instead of \( cos(3u) \), adding a swirling or twisting motion in the \( y \)-direction.
 
 4. **\( z = r • cos(0.5u) \):**  
    - Defines the height variation of the surface, contributing to its **wave-like** appearance.
@@ -43,5 +43,5 @@ where \( u \) and \( v \) range from \( 0 \) to \( 2\pi \). This means that each
 
 ### **Visual Effect of These Equations**
 - The use of **sine and cosine** functions introduces a **wave-like motion** in the surface.
-- The factor **\( \cos(3u) \) and \( \sin(3v) \)** causes **twisting** and **looping** patterns.
-- The **\( r = \cos(2u) \)** term modulates the radius, creating variations in how the surface expands and contracts.
+- The factor **\( cos(3u) \) and \( sin(3v) \)** causes **twisting** and **looping** patterns.
+- The **\( r = cos(2u) \)** term modulates the radius, creating variations in how the surface expands and contracts.
