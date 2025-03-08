@@ -7,7 +7,7 @@ This code defines the **Gyro Surface** with the following equation:
 
 ![Image](https://github.com/user-attachments/assets/04ba3ef1-d139-441f-9c10-8606b9c8913e)
 
-where \( u \) and \( v \) range from \( 0 \) to \( 2\pi \). This means that each point on the surface is determined by **trigonometric functions** that control its shape and curvature.
+where \( u \) and \( v \) range from \( 0 \) to 2π. This means that each point on the surface is determined by **trigonometric functions** that control its shape and curvature.
 
 ---
 
